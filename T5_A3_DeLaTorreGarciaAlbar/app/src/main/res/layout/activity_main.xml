@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:onClick="agrega1"
+        android:text="@string/txt_1"
+        app:layout_constraintBottom_toTopOf="@+id/btn_0"
+        app:layout_constraintEnd_toStartOf="@+id/btn_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:onClick="agrega2"
+        android:text="@string/txt_2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pun"
+        app:layout_constraintEnd_toStartOf="@+id/btn_3" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="agrega3"
+        android:text="@string/txt_3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_igu"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mas" />
+
+    <Button
+        android:id="@+id/btn_mas"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="sumar"
+        android:text="@string/txt_mas"
+        app:layout_constraintBottom_toTopOf="@+id/btn_igu"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="divi"
+        android:text="@string/txt_div"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mul"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_igu"
+        android:layout_width="147dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="igual"
+        android:text="@string/txt_igu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="multi"
+        android:text="@string/txt_mul"
+        app:layout_constraintBottom_toTopOf="@+id/btn_men"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_men"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="23dp"
+        android:onClick="restar"
+        android:text="@string/txt_men"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mas"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Borr"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:onClick="borrarUno"
+        android:text="@string/txt_borr"
+        app:layout_constraintBottom_toTopOf="@+id/btn_9"
+        app:layout_constraintEnd_toStartOf="@+id/btn_div" />
+
+    <Button
+        android:id="@+id/btn_pun"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="48dp"
+        android:onClick="agregaPunto"
+        android:text="@string/txt_pun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_igu" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:onClick="agrega9"
+        android:text="@string/txt_9"
+        app:layout_constraintBottom_toTopOf="@+id/btn_6"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mul" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="agrega6"
+        android:text="@string/txt_6"
+        app:layout_constraintBottom_toTopOf="@+id/btn_3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_men" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="16dp"
+        android:onClick="agrega0"
+        android:text="@string/txt_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pun"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_invi"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:text="@string/txt_8"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_8"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Borr" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:onClick="agrega8"
+        android:text="@string/txt_8"
+        app:layout_constraintBottom_toTopOf="@+id/btn_5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_9" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:onClick="agrega5"
+        android:text="@string/txt_5"
+        app:layout_constraintBottom_toTopOf="@+id/btn_2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_6" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_calcu"
+        app:layout_constraintBottom_toTopOf="@+id/cajaTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cajaTxt"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="59dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_div"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <Button
+        android:id="@+id/btn_CE"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginStart="16dp"
+        android:onClick="borrarTodo"
+        android:text="@string/txt_ce"
+        app:layout_constraintBottom_toTopOf="@+id/btn_7"
+        app:layout_constraintEnd_toStartOf="@+id/btn_invi"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:onClick="agrega4"
+        android:text="@string/txt_4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="16dp"
+        android:onClick="agrega7"
+        android:text="@string/txt_7"
+        app:layout_constraintBottom_toTopOf="@+id/btn_4"
+        app:layout_constraintEnd_toStartOf="@+id/btn_8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

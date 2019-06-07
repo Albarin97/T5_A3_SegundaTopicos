@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">T5_A3_DeLaTorreGarciaAlbar</string>
+
+    <string name="txt_calcu">Calculadora Chida Android</string>
+    <string name="txt_0">0</string>
+    <string name="txt_1">1</string>
+    <string name="txt_2">2</string>
+    <string name="txt_3">3</string>
+    <string name="txt_4">4</string>
+    <string name="txt_5">5</string>
+    <string name="txt_6">6</string>
+    <string name="txt_7">7</string>
+    <string name="txt_8">8</string>
+    <string name="txt_9">9</string>
+    <string name="txt_pun">.</string>
+    <string name="txt_div">/</string>
+    <string name="txt_mul">*</string>
+    <string name="txt_mas">+</string>
+    <string name="txt_men">-</string>
+    <string name="txt_igu">=</string>
+    <string name="txt_borr">«</string>
+    <string name="txt_ce">CE</string>
+
+
+</resources>
